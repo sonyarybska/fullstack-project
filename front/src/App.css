@@ -1,0 +1,31 @@
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 100px;
+}
+
+.button-create {
+    margin: 2% 0 2% 90%;
+    width: 65px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+
+.button-create:hover {
+    background-color: blue;
+}
+
+.form {
+    display: flex;
+    height: fit-content;
+    margin-top: 70px;
+}
+
+
+
+
+

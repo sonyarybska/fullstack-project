@@ -1,0 +1,22 @@
+.user-box {
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    row-gap: 5px;
+    background-color: white;
+    padding: 5px 0 60px 2px;
+    margin: 0 10px 0 30px;
+    border-radius: 2%;
+}
+
+.titles {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    color: #cdd0d9;
+}
+
+.titles p {
+    width: 177px;
+}
+

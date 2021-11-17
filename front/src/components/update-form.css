@@ -1,0 +1,82 @@
+.update-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    flex-direction: column;
+    row-gap: 2px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.update-form input {
+    width: 250px;
+    height: 30px;
+    background-color: #e5e8ef;
+    border: none;
+}
+
+.update-form select {
+    width: 250px;
+    height: 30px;
+    background-color: #e5e8ef;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 100px;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+
+.pink-btn {
+    background-color: deeppink;
+}
+
+.pink-btn:hover {
+    background-color: #d70477;
+}
+
+.blue-btn {
+    background-color: dodgerblue;
+}
+
+.blue-btn:hover {
+    background-color: blue;
+}
+
+.update-form a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgba(127, 127, 120, 0.75);
+    font-weight: 700;
+}
+
+.update-form a:hover {
+    color: deeppink;
+}
+
+.cross-update:after {
+    content: "\00d7";
+}
+
+.cross-box-update {
+    margin-left: 95%;
+}
+
+.errors {
+    color: red;
+}

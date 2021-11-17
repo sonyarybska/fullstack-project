@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "619579fe637980b8ef3e9d1f"
+  },
+  "username": "oksana21",
+  "first_name": "OksanaR",
+  "last_name": "RybskaO",
+  "email": "oksana21@gmal.com",
+  "password": "oksana213453883",
+  "user_type": "Admin",
+  "createdAt": {
+    "$date": "2021-11-17T21:54:06.814Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T23:08:25.682Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61957a27637980b8ef3ea9cc"
+  },
+  "username": "nazik",
+  "first_name": "Nazar",
+  "last_name": "Prus",
+  "email": "nazik@gmal.com",
+  "password": "nazar458763",
+  "user_type": "Driver",
+  "createdAt": {
+    "$date": "2021-11-17T21:54:47.834Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T23:08:15.409Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61957a74637980b8ef3ec43c"
+  },
+  "username": "igor784",
+  "first_name": "Igor",
+  "last_name": "Petrux",
+  "email": "petrux@gmal.com",
+  "password": "igor73653",
+  "user_type": "Driver",
+  "createdAt": {
+    "$date": "2021-11-17T21:56:04.035Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T21:56:04.035Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61957ac7637980b8ef3edbf4"
+  },
+  "username": "marichka784",
+  "first_name": "Maria",
+  "last_name": "Kinax",
+  "email": "masha@gmal.com",
+  "password": "mashka8762",
+  "user_type": "Admin",
+  "createdAt": {
+    "$date": "2021-11-17T21:57:27.361Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T21:57:27.361Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61957b06637980b8ef3eea37"
+  },
+  "username": "Knopa37",
+  "first_name": "Karina",
+  "last_name": "Kril",
+  "email": "karisha@gmal.com",
+  "password": "kar65242",
+  "user_type": "Driver",
+  "createdAt": {
+    "$date": "2021-11-17T21:58:30.483Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T21:58:30.483Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61957b39637980b8ef3ef7e7"
+  },
+  "username": "Sonya",
+  "first_name": "Sofiia",
+  "last_name": "Rybska",
+  "email": "sofaribska@gmal.com",
+  "password": "ksofkajjsj4",
+  "user_type": "Admin",
+  "createdAt": {
+    "$date": "2021-11-17T21:59:21.849Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T21:59:21.849Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6195846210a181adfac54882"
+  },
+  "username": "Рибська Софія",
+  "first_name": "Рибська",
+  "last_name": "Софія",
+  "email": "sofaribska@gmail.com",
+  "password": "jsjjjs55553ux3-",
+  "user_type": "Driver",
+  "createdAt": {
+    "$date": "2021-11-17T22:38:26.562Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T22:38:26.562Z"
+  },
+  "__v": 0
+}]

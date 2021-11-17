@@ -1,0 +1,23 @@
+.user {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e8ef;
+    padding: 4px;
+}
+
+.user:hover {
+    background-color: #abb2c4;
+}
+
+.user div {
+    width: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
