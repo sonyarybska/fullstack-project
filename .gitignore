@@ -4,3 +4,9 @@
 /.idea
 ./.idea
 ./.idea/*
+
+
+# local env files
+back/.env
+.env.local
+.env.*.local

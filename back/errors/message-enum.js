@@ -6,5 +6,6 @@ module.exports = {
     USER_ID_VALID: 'Wrong user id format',
     PASSWORD_INVALID: 'The password must have at least one letter and number, and must be at least 8 characters long',
     INVALID_EMAIL: 'Email format is invalid',
-    USERNAME_UNIQUE: 'User with this username exist, please input another username'
+    USERNAME_UNIQUE: 'User with this username exist, please input another username',
+    WRONG_TEMPLATE_NAME: 'Wrong template name'
 };

@@ -1,5 +1,7 @@
 const User = require('../data-base/User');
 const {messageEnum, statusEnum} = require('../errors');
+const emailService = require('../services/email.service');
+const {emailTemplatesEnum} = require('../constants');
 
 module.exports = {
     getUsers: async (req, res) => {
@@ -27,9 +29,11 @@ module.exports = {
 
     postUser: async (req, res) => {
         try {
-            await User.create({...req.body});
+            const user = await User.create({...req.body});
 
-            res.status(statusEnum.CREATED).json(messageEnum.UPDATE_USER);
+            await emailService(user.email, emailTemplatesEnum.WELCOME, {userName: user.name});
+
+            res.status(statusEnum.CREATED).json(messageEnum.ADD_USER);
         } catch (e) {
             res.json(e.message);
         }
